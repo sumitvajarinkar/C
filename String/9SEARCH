@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+ char name[5][15],i,j;
+ clrscr();
+ printf("Enter string\n");
+ for(i=0;i<5;i++)
+ {
+  gets(name[i]);
+ }
+ char nm[15];
+ printf("Enter name to serach");
+ gets(nm);
+ int c=0;
+ for(j=0;j<5;j++)
+ {
+  if(strcmp(name[j],nm)==0)
+   {
+    c=1;
+    break;
+   }
+  }
+  if(c==1)
+   printf("String found");
+  else
+   printf("String not found");
+getch();
+}
