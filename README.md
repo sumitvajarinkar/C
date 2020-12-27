@@ -1,2 +1,2 @@
-# C
+# C-language
 My C codes.
