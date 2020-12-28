@@ -1,0 +1,422 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a;
+clrscr();
+printf("Enter any no.=\n");
+scanf("%d",&a);
+if(a%2==0)
+{
+ printf("No. is even\n");
+ }
+ else
+ {
+  printf("No. is odd\n");
+  }
+getch();
+}
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ char a;
+ clrscr();
+ printf("Enter any alphabets=\n");
+ scanf("%c",a);
+ if('a','e','i','o','u')
+   {
+    printf("It is vowel\n");
+    }
+ else
+   {
+    printf("It is consonant\n");
+    }
+ getch();
+ }
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c;
+clrscr();
+printf("Enter any 3 nos.=\n");
+scanf("%d%d%d",&a,&b,&c);
+ if(a>b && a>c)
+   {
+    printf("A is greater no.\n");
+    }
+ else if(b>c)
+    {
+    printf("B is greater no.\n");
+    }
+ else if(b>a && b>c)
+    {
+     printf("B is greater no.\n");
+     }
+ else if(a>c)
+    {
+    printf("A is greater no.\n");
+     }
+  else
+   {
+   printf("C is greater no.\n");
+    }
+  getch();
+  }
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int a,b,c;
+ clrscr();
+ printf("Enter sides of triangle=\n");
+ scanf("%d%d%d",&a,&b,&c);
+ if(a+b>c && b+c>a && a+c>b)
+  {
+   if(a==b && b==c)
+   {
+    printf("Triangle is equilateral\n");
+    }
+     if(a==b || b==c || a==c)
+     {
+      printf("Triangle is isosceles\n");
+      }
+     }
+  else
+  {
+   printf("Triangle is scalene\n");
+    }
+ getch();
+ }
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ float a,b,c,d,e,per;
+ clrscr();
+ printf("Enter marks of 5 subjects=\n");
+ scanf("%f%f%f%f%f",&a,&b,&c,&d,&e);
+ per=(a+b+c+d+e)/5;
+ printf("Percentage=%f",per);
+ if(per>90)
+  {
+   printf("Grade A");
+   }
+  else if(per>80)
+     {
+      printf("Grade B");
+      }
+  else if(per>70)
+      {
+       printf("Grade C");
+       }
+  else if(per>60)
+	{
+	printf("Grade D");
+	}
+  else if(per>40)
+	{
+	 printf("Grade E");
+	}
+  else
+     {
+      printf("Grade F");
+      }
+getch();
+}
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int x,y,a,s,m,d;
+ char ch;
+ clrscr();
+ printf("Enter value of x & y=\n");
+ scanf("%d%d",&x,&y);
+ printf("Enter operation=\n");
+ scanf("%c",&ch);
+ if(ch=='a')
+     a=x+y;
+     {
+     printf("Addition=%d\n");
+     }
+    else if(ch=='s')
+    s=x-y;
+    {
+     printf("Subtraction=%d\n");
+     }
+     else if(ch=='m')
+     m=x*y;
+     {
+      printf("Multiplication=%d\n");
+      }
+      else if(ch=='d')
+      d=x/y;
+      {
+       printf("Division=%d\n");
+       }
+       else
+       {
+	printf("Wrong");
+	}
+   getch();
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ char ch;
+ clrscr();
+ printf("Enter grade code=\n");
+ scanf("%c",&ch);
+ if(ch=='a')
+ {
+  printf("Basic salary=15000");
+  }
+  else if(ch=='b')
+  {
+   printf("Basic salary=12000");
+   }
+   else if(ch=='c')
+   {
+    printf("Basic salary=10000");
+    }
+    else if(ch='d')
+    {
+     printf("Basic salary=8000");
+     }
+     else
+     {
+      printf("Wrong choice\n");
+      }
+      getch();
+      }
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int month;
+ clrscr();
+ printf("Enter any month\n");
+ scanf("%d",month);
+ if(month==2)
+ {
+   printf("28 or 29 days in month\n");
+   }
+     else if(month==1 || month==3 || month==5 || month==7 || month==8 || month==10 || month==12)
+     {
+      printf("31 days in month\n");
+      }
+      else if(month==4 || month==6 || month==9 || month==11)
+      {
+       printf("30 days in month\n");
+       }
+       else
+       {
+	printf("Wrong choice\n");
+       }
+       getch();
+       }
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int day;
+ clrscr();
+ printf("Enter any day\n");
+ scanf("%d",&day);
+ switch(day)
+ {
+  case 1:
+	 printf("Monday");
+	 break;
+  case 2:
+  printf("tuesday");
+  break;
+  case 3:
+	 printf("Wednesday");
+	 break;
+  case 4:
+	 printf("Thrusday");
+	 break;
+  case 5:
+  printf("Friday");
+  break;
+  case 6:
+	 printf("Saturday");
+	 break;
+  case 7:
+	 printf("Sunday");
+	 break;
+  default:
+	  printf("wrong choice\n");
+	  }
+	  getch();
+	  }
+
+
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int a;
+ clrscr();
+ printf("Enter any no.=\n");
+ scanf("%d",&a);
+ switch(a%2==0)
+ {
+  case 0:
+	    printf("No. is odd\n");
+	    break;
+  case 1:
+	   printf("No. is even\n");
+	   break;
+	   }
+	  getch();
+	  }
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int a,b,c;
+ char ch;
+ clrscr();
+ printf("Enter any two nos.=\n");
+ scanf("%d%d",&a,&b);
+ fflush(stdin);
+ printf("Enter operation\n");
+ scanf("%c",&ch);
+ switch(ch)
+ {
+  case '+':
+  {       c=a+b;
+	  printf("add=%d",c);
+	  break;
+	  }
+ case '-':
+ {       c=a-b;
+	 printf("Sub=%d",c);
+	 break;
+	 }
+ case '*':
+ {       c=a*b;
+	 printf("Mul=%d",c);
+	 break;
+	 }
+ case '/':
+   {     c=a/b;
+	 printf("Div=%d",c);
+	 break;
+	 }
+ default:
+	 printf("Wrong choice\n");
+}
+     getch();
+}
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a;
+clrscr();
+printf("Enter any no.=\n");
+scanf("%d",&a);
+if(a>=50)
+ {
+ printf("Hello world\n");
+ }
+ getch();
+ }
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a;
+clrscr();
+printf("Enter any no.=\n");
+scanf("%d",&a);
+if(a%2==0)
+ {
+ printf("Intger is positive\n");
+ }
+ else
+ {
+  printf("Integer is not positive\n");
+  }
+ getch();
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b;
+clrscr();
+printf("Enter any two nos.=\n");
+scanf("%d%d",&a,&b);
+if(a>b)
+{
+ printf("No. a is greater\n");
+ }
+ else
+ {
+  printf("No. b is greater\n");
+  }
+getch();
+}
+
