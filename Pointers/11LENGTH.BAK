@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+int *length(char *p);
+void main()
+{
+ char a[10],*p;
+ clrscr();
+ printf("Enter a string");
+ gets(a);
+ p=a;
+ length(p);
+ getch();
+}
+int *length(char *p)
+{
+ int c=0;
+ while(*p!='\0')
+  {
+  p++;
+   c++;
+  }
+printf("String length is=%d",c);
+return 0;
+}
+
+
+
+
